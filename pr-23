@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+
+<script> 
+let name= prompt("enter your name");
+let address= prompt("enter your address");
+if(name==null||name==" "||address==null||address=="")
+{
+    alert("no data entered");
+}
+else{
+    alert("name="+name+"\naddress="+address);
+}
+</script>
+
+        
+</body>
+</html>
